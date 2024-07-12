@@ -1,0 +1,4 @@
+26th of June
+use space (which is the leader) then e to toggle the tree
+the leader has been set to space
+use space then f while tree is open to find a file within the current folder and deeper
