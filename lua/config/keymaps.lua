@@ -13,9 +13,9 @@ vim.g.maplocalleader = " "
 
 ---- Add any additional keymaps here
 -- keymap("i", "<T-g>", "<C-w>", opts)
-keymap("i", "\\]", "<ESC>", opts)
+keymap("i", "kj", "<ESC>", opts)
 -- keymap("i", "ddd", "<ESC>ddi", opts)
 -- keymap("i", "yyy", "<ESC>yyi", opts)
 -- keymap("i", "ppp", "<ESC>pi", opts)
 
-keymap("n", "\\]", "a", opts)
+keymap("n", "kj", "a", opts)

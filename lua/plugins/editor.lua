@@ -17,7 +17,7 @@ return {
     },
     keys = {
       {
-        ";f",
+        "sa",
         function()
           local builtin = require("telescope.builtin")
           builtin.find_files({
@@ -28,7 +28,7 @@ return {
         desc = "Lists files in your current working directory, respects .gitignore",
       },
       {
-        ";r",
+        "sg",
         function()
           local builtin = require("telescope.builtin")
           builtin.live_grep()
@@ -36,7 +36,7 @@ return {
         desc = "Search for a string in your current working directory and get results live as you type, respects .gitignore",
       },
       {
-        "\\\\",
+        "sb",
         function()
           local builtin = require("telescope.builtin")
           builtin.buffers()
@@ -44,7 +44,7 @@ return {
         desc = "Lists open buffers",
       },
       {
-        ";;",
+        "sr",
         function()
           local builtin = require("telescope.builtin")
           builtin.resume()
@@ -60,7 +60,7 @@ return {
         desc = "Lists Diagnostics for all open buffers or a specific buffer",
       },
       {
-        ";s",
+        "sl",
         function()
           local builtin = require("telescope.builtin")
           builtin.treesitter()
